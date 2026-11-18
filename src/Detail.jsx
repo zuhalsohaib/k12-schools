@@ -55,17 +55,17 @@ function R({n,segs=[],l=0}){
  if(n.t==='i'&&h('tl'))return<img className="pg-tl" alt="" loading="lazy" src={'https://www.google.com/s2/favicons?domain='+n.k[0]+'&sz=64'}/>
  return createElement(n.t,{className:cls.join(' ')||undefined},k.length?kids():undefined)}
 const HI={lms:'/img/ai-learning.jpg',teaching:'/img/teacher-online.jpg',students:'/img/photo-9.jpg',parents:'/img/photo-7.jpg'}
-const Hero=({ph,crumb,id})=>(<header className="relative overflow-hidden bg-gradient-to-b from-[#d9f5e6] to-bg pb-14 pt-[140px] dark:from-[#0b2a1d]">
+const Hero=({ph,crumb,id})=>(<header className="relative overflow-hidden bg-gradient-to-b from-[#f5d9dd] to-bg pb-14 pt-[140px] dark:from-[#92061b]">
  <svg className="pointer-events-none absolute -right-20 top-8 hidden h-[420px] w-[420px] text-em opacity-25 md:block" viewBox="0 0 400 400" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="200" cy="200" r="60"/><circle cx="200" cy="200" r="110"/><circle cx="200" cy="200" r="160"/><circle cx="200" cy="200" r="195" strokeDasharray="4 8"/><circle cx="310" cy="120" r="10" fill="currentColor"/><circle cx="90" cy="290" r="7" fill="currentColor"/></svg>
  <div className="relative mx-auto max-w-[1200px] px-[22px]">
   <nav className="mb-5 flex items-center gap-2 text-sm font-semibold"><a className="text-em2" href="#home">Home</a><span className="text-mu">/</span><span className="text-mu">{crumb}</span></nav>
   <h1 className="max-w-[18ch] text-[clamp(36px,5.4vw,70px)] font-extrabold text-ink">{txt(find(ph,x=>x.t==='h1'))}</h1>
   <p className="mt-5 max-w-[60ch] text-lg text-mu">{txt(find(ph,x=>x.t==='p'))}</p>{HI[id]&&<img src={HI[id]} alt="" className="mt-8 aspect-[16/9] w-full max-w-[720px] rounded-[26px] object-cover shadow-xl"/>}</div></header>)
-const CTA=()=>(<section className="mx-auto max-w-[1200px] px-[22px] pb-6"><div className="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-[#0a3a29] to-[#06150f] p-[clamp(28px,5vw,56px)] text-white">
+const CTA=()=>(<section className="mx-auto max-w-[1200px] px-[22px] pb-6"><div className="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-[#98061c] to-[#880619] p-[clamp(28px,5vw,56px)] text-white">
  <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-em opacity-30 blur-3xl"/>
  <h2 className="relative !max-w-[20ch] !text-[clamp(28px,4vw,46px)]">Ready to start your child’s journey?</h2>
- <p className="relative mt-3 max-w-[50ch] text-[#b9d3c6]">Talk to an academic counsellor and book a free demo class.</p>
- <div className="relative mt-6 flex flex-wrap items-center gap-3"><a className="btn" href="#contact">Book A Free Demo</a><a className="btn btn-g" href="https://wa.me/919319238614" target="_blank" rel="noreferrer">WhatsApp us</a><Socials className="sm:ml-3"/></div></div></section>)
+ <p className="relative mt-3 max-w-[50ch] text-[#e64c63]">Talk to an academic counsellor and book a free demo class.</p>
+ <div className="relative mt-6 flex flex-wrap items-center gap-3"><a className="btn" href="#contact">Book A Free Demo</a><a className="btn btn-g" href="https://wa.me/93748662990" target="_blank" rel="noreferrer">WhatsApp us</a><Socials className="sm:ml-3"/></div></div></section>)
 export const TITLES={about:'About Us',academics:'Academics',admissions:'Admissions',technology:'Technology',beyond:'Beyond Classroom'}
 export const hasPage=id=>!!ALL[id]
 export default function Detail({id,segs}){

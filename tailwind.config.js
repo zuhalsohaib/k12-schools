@@ -2,10 +2,10 @@ export default {
   darkMode:'class',
   content:['./index.html','./src/**/*.{js,jsx}'],
   theme:{extend:{
-    colors:{bg:'var(--bg)',sf:'var(--sf)',ink:'var(--ink)',mu:'var(--mu)',ln:'var(--ln)',em:'var(--em)',em2:'var(--em2)',dk:'var(--dk)',mint:'#c9f7dd'},
+    colors:{bg:'var(--bg)',sf:'var(--sf)',ink:'var(--ink)',mu:'var(--mu)',ln:'var(--ln)',em:'var(--em)',em2:'var(--em2)',dk:'var(--dk)',mint:'#ffd6dc'},
     fontFamily:{sans:['"DM Sans"','system-ui','sans-serif'],display:['"Bricolage Grotesque"','"DM Sans"','sans-serif']},
     keyframes:{
-      pu:{'50%':{boxShadow:'0 0 0 10px rgba(78,227,154,0),0 0 24px rgba(78,227,154,.55)'}},
+      pu:{'50%':{boxShadow:'0 0 0 10px rgba(234,10,43,0),0 0 24px rgba(234,10,43,.55)'}},
       fl:{'50%':{transform:'translate(40px,-30px) scale(1.15)'}},
       mq:{to:{transform:'translateX(-50%)'}},
       bo:{'50%':{transform:'translateY(-8px)'}},
